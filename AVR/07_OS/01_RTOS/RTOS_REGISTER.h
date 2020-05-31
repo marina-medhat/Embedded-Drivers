@@ -1,0 +1,30 @@
+#define PORTA_BASE_ADDRESS 0X40010800
+
+#define PORTA_CRL          *((u32*)(PORTA_BASE_ADDRESS+0X00)) 
+#define PORTA_CRH          *((u32*)(PORTA_BASE_ADDRESS+0X04))
+#define PORTA_IDR          *((u32*)(PORTA_BASE_ADDRESS+0X08))
+#define PORTA_ODR          *((u32*)(PORTA_BASE_ADDRESS+0X0C))
+#define PORTA_BSRR         *((u32*)(PORTA_BASE_ADDRESS+0X10))
+#define PORTA_BRR         *((u32*)(PORTA_BASE_ADDRESS+0X14))
+#define PORTA_LCKR         *((u32*)(PORTA_BASE_ADDRESS+0X18))
+
+#define PORTB_BASE_ADDRESS 0X40010C00
+
+#define PORTB_CRL          *((u32*)(PORTA_BASE_ADDRESS+0X00)) 
+#define PORTB_CRH          *((u32*)(PORTA_BASE_ADDRESS+0X04))
+#define PORTB_IDR          *((u32*)(PORTA_BASE_ADDRESS+0X08))
+#define PORTB_ODR          *((u32*)(PORTA_BASE_ADDRESS+0X0C))
+#define PORTB_BSRR         *((u32*)(PORTA_BASE_ADDRESS+0X10))
+#define PORTB_BRR         *((u32*)(PORTA_BASE_ADDRESS+0X14))
+#define PORTB_LCKR         *((u32*)(PORTA_BASE_ADDRESS+0X18))
+
+
+#define PORTC_BASE_ADDRESS 0X40011000
+
+#define PORTC_CRL          *((u32*)(PORTA_BASE_ADDRESS+0X00)) 
+#define PORTC_CRH          *((u32*)(PORTA_BASE_ADDRESS+0X04))
+#define PORTC_IDR          *((u32*)(PORTA_BASE_ADDRESS+0X08))
+#define PORTC_ODR          *((u32*)(PORTA_BASE_ADDRESS+0X0C))
+#define PORTC_BSRR         *((u32*)(PORTA_BASE_ADDRESS+0X10))
+#define PORTC_BRR         *((u32*)(PORTA_BASE_ADDRESS+0X14))
+#define PORTC_LCKR         *((u32*)(PORTA_BASE_ADDRESS+0X18))

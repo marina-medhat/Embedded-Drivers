@@ -1,0 +1,1 @@
+void Dac_VoidSetAnalogVolt(u16 copy_u16AnalogMv);
